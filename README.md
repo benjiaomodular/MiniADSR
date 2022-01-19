@@ -10,7 +10,7 @@ Initial design.
 
 ### Issues
 - Wrong connection from R7
-- Wrong value for C3
+- Wrong value for C3 and Sustain pot
 
 ## 1.1 (\*Not validated)
 Some fixes from the initial release
