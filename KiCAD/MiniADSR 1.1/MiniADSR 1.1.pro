@@ -1,4 +1,4 @@
-update=Saturday, 08 January, 2022 01:48:06 AM PST
+update=Thursday, 20 January, 2022 12:20:59 AM PST
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=MiniADSR 1.0.net
+LastNetListRead=MiniADSR 1.1.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -70,7 +70,7 @@ OthersTextUpright=1
 SolderMaskClearance=0
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
