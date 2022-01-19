@@ -20,6 +20,6 @@ Some fixes from the initial release
 - C3 from 100uF to 2.2uF
 - Updated recommended C2 value to 1uF
 - Updated front panel label sizes. Jack labels too big in first version
-
+- Added version numbers
 
 \*"Not validated" means I haven't built the new design myself yet nor have I received news that it is indeed working.
