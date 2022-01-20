@@ -44,18 +44,18 @@ F 3 "" H 4475 4450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x06_Male J?
+L Connector:Conn_01x03_Male J?
 U 1 1 61FC4B84
-P 3950 3700
+P 3950 3900
 AR Path="/61FC4B84" Ref="J?"  Part="1" 
 AR Path="/61FA9972/61FC4B84" Ref="J7"  Part="1" 
 AR Path="/61F51CE9/61FC4B84" Ref="J5"  Part="1" 
 AR Path="/61EBA3CC/61FC4B84" Ref="J3"  Part="1" 
-F 0 "J3" H 4075 4200 50  0000 R CNN
-F 1 "JST_BUS" H 4200 4075 50  0000 R CNN
-F 2 "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical" H 3950 3700 50  0001 C CNN
-F 3 "~" H 3950 3700 50  0001 C CNN
-	1    3950 3700
+F 0 "J3" H 4075 4400 50  0000 R CNN
+F 1 "JST_BUS" H 4200 4275 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 3950 3900 50  0001 C CNN
+F 3 "~" H 3950 3900 50  0001 C CNN
+	1    3950 3900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -191,9 +191,6 @@ $EndComp
 Connection ~ 4950 3975
 Wire Wire Line
 	4950 3975 4950 4050
-NoConn ~ 4150 3700
-NoConn ~ 4150 3600
-NoConn ~ 4150 3500
 $Comp
 L power:GND2 #PWR0104
 U 1 1 61C8D9E7
