@@ -1,4 +1,4 @@
-update=Saturday, 08 January, 2022 01:48:06 AM PST
+update=Wednesday, 02 February, 2022 01:00:16 AM PST
 version=1
 last_client=kicad
 [general]
@@ -15,7 +15,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=../../Exports/
+PlotDirectoryName=../../Exports/MiniADSR 1.0.1
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=MiniADSR 1.0.net
+LastNetListRead=MiniADSR 1.0.1.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -70,7 +70,7 @@ OthersTextUpright=1
 SolderMaskClearance=0
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0

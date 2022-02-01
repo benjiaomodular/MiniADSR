@@ -6,8 +6,8 @@ encoding utf-8
 Sheet 1 2
 Title ""
 Date ""
-Rev ""
-Comp ""
+Rev "v1.0.1"
+Comp "benjiaomodular"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -144,7 +144,7 @@ Connection ~ 2000 4375
 Wire Wire Line
 	2000 4375 2175 4375
 Wire Wire Line
-	1050 4375 1200 4375
+	1075 4375 1225 4375
 $Comp
 L power:GND2 #PWR06
 U 1 1 61BB5948
@@ -172,7 +172,7 @@ $EndComp
 Wire Wire Line
 	3425 3600 3425 3725
 Wire Wire Line
-	3775 3725 3425 3725
+	3775 3725 3650 3725
 Connection ~ 3425 3725
 Wire Wire Line
 	3425 3725 3425 3850
@@ -268,8 +268,6 @@ F 3 "" H 3425 3075 50  0001 C CNN
 	1    3425 3075
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3425 3075 3425 3200
 $Comp
 L power:+12V #PWR08
 U 1 1 61BD083E
@@ -328,12 +326,7 @@ Wire Wire Line
 	5450 2025 4125 2025
 Wire Wire Line
 	4125 2025 4125 3200
-Wire Wire Line
-	4125 3200 3425 3200
 Connection ~ 5450 2025
-Connection ~ 3425 3200
-Wire Wire Line
-	3425 3200 3425 3300
 Wire Wire Line
 	5725 2525 5650 2525
 Wire Wire Line
@@ -461,7 +454,7 @@ L Device:R_POT POT_SUSTAIN1
 U 1 1 61C7CF01
 P 7750 3350
 F 0 "POT_SUSTAIN1" H 7680 3304 50  0000 R CNN
-F 1 "1M" H 7680 3395 50  0000 R CNN
+F 1 "10K" H 7680 3395 50  0000 R CNN
 F 2 "benjiaomodular:Potentiometer_RV09" H 7750 3350 50  0001 C CNN
 F 3 "~" H 7750 3350 50  0001 C CNN
 	1    7750 3350
@@ -526,7 +519,7 @@ L Device:CP C3
 U 1 1 61D26594
 P 9275 2700
 F 0 "C3" H 9393 2746 50  0000 L CNN
-F 1 "100uF" H 9393 2655 50  0000 L CNN
+F 1 "1uF*" H 9393 2655 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 9313 2550 50  0001 C CNN
 F 3 "~" H 9275 2700 50  0001 C CNN
 	1    9275 2700
@@ -591,7 +584,7 @@ Connection ~ 9275 2025
 Wire Wire Line
 	9275 2025 9575 2025
 Wire Wire Line
-	1125 4475 1125 4600
+	1150 4475 1150 4600
 $Sheet
 S 12450 4700 1100 1275
 U 61EBA3CC
@@ -638,26 +631,26 @@ Wire Wire Line
 Wire Wire Line
 	10625 4575 10625 4675
 Wire Wire Line
-	1125 4475 1050 4475
+	1150 4475 1075 4475
 Wire Wire Line
-	1050 4275 1125 4275
+	1075 4275 1150 4275
 Wire Wire Line
-	1125 4275 1125 4475
-Connection ~ 1125 4475
+	1150 4275 1150 4475
+Connection ~ 1150 4475
 $Comp
 L Connector:AudioJack2_SwitchT J1
 U 1 1 61DE2DCA
-P 850 4375
-F 0 "J1" H 875 4050 50  0000 R CNN
-F 1 "INPUT" H 950 4125 50  0000 R CNN
-F 2 "benjiaomodular:AudioJack_3.5mm" H 850 4375 50  0001 C CNN
-F 3 "~" H 850 4375 50  0001 C CNN
-	1    850  4375
+P 875 4375
+F 0 "J1" H 900 4050 50  0000 R CNN
+F 1 "INPUT" H 975 4125 50  0000 R CNN
+F 2 "benjiaomodular:AudioJack_3.5mm" H 875 4375 50  0001 C CNN
+F 3 "~" H 875 4375 50  0001 C CNN
+	1    875  4375
 	1    0    0    1   
 $EndComp
-Text GLabel 1200 4375 2    50   Output ~ 0
+Text GLabel 1225 4375 2    50   Output ~ 0
 A1
-Text GLabel 1525 4375 0    50   Input ~ 0
+Text GLabel 1525 4375 0    50   Output ~ 0
 B1
 Text GLabel 10300 2125 2    50   Output ~ 0
 B2
@@ -666,12 +659,12 @@ Wire Wire Line
 $Comp
 L power:GND1 #PWR01
 U 1 1 61F0882F
-P 1125 4600
-F 0 "#PWR01" H 1125 4350 50  0001 C CNN
-F 1 "GND1" H 1130 4427 50  0000 C CNN
-F 2 "" H 1125 4600 50  0001 C CNN
-F 3 "" H 1125 4600 50  0001 C CNN
-	1    1125 4600
+P 1150 4600
+F 0 "#PWR01" H 1150 4350 50  0001 C CNN
+F 1 "GND1" H 1155 4427 50  0000 C CNN
+F 2 "" H 1150 4600 50  0001 C CNN
+F 3 "" H 1150 4600 50  0001 C CNN
+	1    1150 4600
 	1    0    0    -1  
 $EndComp
 Text GLabel 6800 2525 2    50   Output ~ 0
@@ -1054,4 +1047,15 @@ Text GLabel 7200 2025 0    50   Output ~ 0
 B10
 Wire Wire Line
 	7200 2025 7225 2025
+Wire Wire Line
+	3425 3075 3425 3300
+Wire Wire Line
+	4125 3200 3650 3200
+Wire Wire Line
+	3650 3200 3650 3725
+Connection ~ 3650 3725
+Wire Wire Line
+	3650 3725 3425 3725
+Text Notes 9400 2925 0    31   ~ 0
+Try 470nF to 4.7uF\nhigher = slower attack/release
 $EndSCHEMATC
