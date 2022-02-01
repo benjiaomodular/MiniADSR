@@ -13,7 +13,7 @@ Initial design.
 - Wrong value for C3 and Sustain pot
 
 ## 1.0.1 (Not Validated)
-Quick fixes for v1.0.1
+Quick fixes for v1.0
 - Fixed connection of R7 to Q2 pin 1
 - Updated C2 value to 10uF
 - Change sustain pot from 1M to 10k
