@@ -20,11 +20,3 @@ Initial design.
 ### Issues
 - Wrong connection from R7
 - Wrong value for C3 and Sustain pot
-
-# Upcoming
-
-## 1.1 (Under Development. Do NOT print yet.)
-Some fixes from the initial release
-- Updated front panel label sizes. Jack labels too big in first version.
-- Added toggle switch for selecting attack/decay/release range.
-- Will add a manual trigger button.
