@@ -1,6 +1,6 @@
 # MiniADSR
 
-A four-parameter envelope generator based on Rene Schmitz' [The Fastest Envelope in the West](https://www.schmitzbits.de/adsr.html).
+A four-parameter envelope generator based on Rene Schmitz' [The Fastest Envelope in the West](https://www.schmitzbits.de/adsr.html). More info on my website: https://benjiaomodular.com/post/2022-02-02-mini-adsr/
 
 
 # Versions
